@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Contact from './pages/contact/Contact'
+import About from './pages/about/About';
 
 function App() {
   return (
     <>
-      <Contact/>
+      <About/>
     </>
   );
 }
