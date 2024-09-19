@@ -178,6 +178,18 @@ body{
   .flex {
     display: flex;
   }
+  .myhr{
+    margin-top: -50px;
+    width: 40%;
+  }
+  .words{
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: 500;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
   .flex1 {
     display: flex;
     margin-right: 20px;
@@ -337,6 +349,7 @@ body{
       font-size: 24px;
     }
     .map {
+      display:flex;
       margin-top: 100px;
     }
   }
