@@ -81,7 +81,7 @@ body{
     border: none;
     color: white;
     letter-spacing: 1.5px;
-    background-color: black;
+    background-color: #021526;
     height: 40px;
   }
   .btn {
@@ -89,6 +89,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    background-color: blue;
   }
   .message-form > button:hover {
     transition: 0.5s;
