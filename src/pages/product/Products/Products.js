@@ -1,14 +1,14 @@
-import "../../product/Product.css";
+import "../product.css";
 
 const Products = ({ result }) => {
   return (
 
     <>
 
-      <section className="card-container"> 
-        
-          {result }</section>
-    
+      <section className="card-container">
+
+        {result}</section>
+
     </>
   );
 };
