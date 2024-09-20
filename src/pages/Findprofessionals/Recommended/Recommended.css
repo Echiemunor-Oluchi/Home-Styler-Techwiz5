@@ -1,0 +1,41 @@
+.recommended-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+}
+
+.recommended-flex Button {
+  background: #fec76f;
+}
+
+.recommended-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media (max-width:768px) {
+  .recommended-flex {
+    margin-left: 1rem;
+    gap: 20px;
+  }
+
+  .recommended-title {
+    margin-left: 1rem;
+  }
+
+}
+
+
+@media (max-width: 880px) {
+  .recommended-flex {
+    margin-left: 1rem;
+    gap: 20px;
+  }
+
+  .recommended-title {
+    margin-left: 1rem;
+  }
+
+}
