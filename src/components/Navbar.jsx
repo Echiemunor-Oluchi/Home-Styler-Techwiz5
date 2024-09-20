@@ -1,7 +1,7 @@
 import './components.css';
 import { FaShoppingCart } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
-import whitelogo from "../assets/imagefolder/whitehomestylerlogo.jpg"
+import whitelogo from "../assets/imagefolder/homestyler.jpg"
 import { useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -12,7 +12,7 @@ function Navbar() {
       const navbar = document.querySelector('.header');
       if (window.scrollY > 200) {
         navbar.classList.add('.change-bg-color');
-     }
+}
   })
   }, [window.scrollY])
   return (
