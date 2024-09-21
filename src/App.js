@@ -10,8 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
     <div>
-
-      <Findprofessionals />
+      <Findprofessionals></Findprofessionals>
 
     </div>
 
