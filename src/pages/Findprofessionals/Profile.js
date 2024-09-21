@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { MdVerified } from "react-icons/md";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'react-bootstrap';
+import { RiTwitterXLine } from "react-icons/ri";
 
 
 
@@ -92,7 +95,7 @@ const Profile = ({ name, profession, desc, skills1, skills2, skills3, images }) 
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                             >
-                                {/* Add specific path for each icon based on your requirements */}
+                                {<RiTwitterXLine />}
                             </svg>
                         </a>
                     </li>
@@ -125,7 +128,7 @@ const Profile = ({ name, profession, desc, skills1, skills2, skills3, images }) 
                 </div>
                 <div id="skills-content" className={`tab-content ${activeTab === 'skills' ? 'tab-content--active' : ''}`}>
                     <p>
-                        My content is focused on the latest web development technologies and tools. Here is the overview 👨‍💻
+                        My content is focused on the latest Interior designs and tools. Here is the overview 👨‍💻
                     </p>
                     <ul className="content-links">
                         <li><a href="#html-css">{skills1}</a></li>
@@ -135,7 +138,7 @@ const Profile = ({ name, profession, desc, skills1, skills2, skills3, images }) 
                     </ul>
                 </div>
                 <div id="reviews-content" className={`tab-content ${activeTab === 'reviews' ? 'tab-content--active' : ''}`}>
-                    <p>Here are some of the reviews from my Clients 📚</p>
+                    <p>Here are some of the reviews from my Clients </p>
                     <ul className="reviews">
                         <li>
                             <article className="review">
@@ -166,7 +169,7 @@ const Profile = ({ name, profession, desc, skills1, skills2, skills3, images }) 
                     </ul>
                 </div>
             </main>
-            <button className="btn btn--primary">Book Me</button>
+            <Button className="btn btn--primary">Book Me</Button>
         </section>
     );
 };

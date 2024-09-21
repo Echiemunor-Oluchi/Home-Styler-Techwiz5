@@ -11,7 +11,7 @@ const Recommended = ({ handleClick }) => {
           <Button onClickHandler={handleClick} value="homedecors" title="Popular Professional" />
           <Button onClickHandler={handleClick} value="painters" title="Interior Designers" />
           <Button onClickHandler={handleClick} value="plumbing" title="Plumbing" />
-          <Button onClickHandler={handleClick} value="Vans" title="Kitchen & Bathroom Designers" />
+          <Button onClickHandler={handleClick} value="kitchendecors" title="Kitchen & Bathroom Designers" />
         </div>
       </div>
     </>

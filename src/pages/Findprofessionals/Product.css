@@ -1,4 +1,3 @@
-/* Base styles (already in place) */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -9,25 +8,15 @@
   justify-content: space-evenly;
 }
 
-.card {
-  width: 50%;
-  margin: 20px;
 
-  padding: 20px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  box-shadow:
-    4.1px 2.7px 5.3px rgba(0, 0, 0, 0.028),
-    13.8px 8.9px 17.9px rgba(0, 0, 0, 0.042),
-    62px 40px 80px rgba(0, 0, 0, 0.07);
+#skills-content p {
+  color: white;
 }
 
-.card-img {
-  width: 25rem;
-  object-fit: contain;
+#reviews-content p {
+  color: white;
 }
+
 
 .card-title {
   margin-bottom: 1rem;
@@ -68,7 +57,7 @@
   color: #535353;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 /* Media Queries for Responsiveness */
@@ -119,91 +108,13 @@
   }
 }
 
-@media (max-width: 880px) {
-  .card {
-    flex: 1 100%;
-    /* One card per row on mobile */
-    margin: 10px 0;
-
-    /* Vertical margin for spacing */
-  }
-
-  .card-container {
-    margin-left: 0;
-    /* Remove left margin on smaller screens */
-  }
-}
-
-@media (max-width: 1581px) {
-  .card {
-    display: flex;
-    flex-direction: column;
-  }
 
 
 
-}
 
 
 
-.modal-centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 5;
-  background-color: #23262D;
-  gap: 20px;
-  display: flex;
-  border-radius: 10px;
 
-}
-
-.formModal {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 10px;
-  width: 100%;
-
-}
-
-.mailModal {
-  width: 100%;
-  border: none;
-  padding: 5px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.modalhead {
-  font-size: 15px;
-  text-align: center;
-  background: #d5ab55;
-  margin-left: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.modalbtn {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.tstarea {
-  width: 100%;
-  border: none;
-  padding: 5px;
-  border-radius: 10px;
-}
 
 /* PROFILE.JS CSS STARTS HERE */
 
@@ -583,7 +494,7 @@
 
   .card {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
 
   }
 

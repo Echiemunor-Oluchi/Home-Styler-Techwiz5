@@ -2,6 +2,7 @@ import { MdVerified } from "react-icons/md";
 import Profile from "./Profile";
 import { Button, Modal, Form } from "react-bootstrap";
 import { useState } from "react";
+import "./Card.css";
 
 const Card = ({ img, cardImg, title, star, reviews, prevPrice, newPrice, images }) => {
   const [showModal, setShowModal] = useState(false);
@@ -12,13 +13,16 @@ const Card = ({ img, cardImg, title, star, reviews, prevPrice, newPrice, images 
   return (
     <>
       <section className="card">
+
         <img src={img} alt={title} className="card-img" />
+
         <div className="card-details">
           <h3 className="card-title"><img src={cardImg} /> {title}  <MdVerified className='verification-icon' /> </h3>
           <section className="card-reviews">
             {star} {star} {star} {star}
             <span className="total-reviews">{reviews}</span>
           </section>
+
           <section className="card-price">
             <div className="price">
               <del>{prevPrice}</del> {newPrice}
@@ -40,10 +44,11 @@ const Card = ({ img, cardImg, title, star, reviews, prevPrice, newPrice, images 
 
       </section>
 
+
       <Modal
         show={showModal}
         onHide={handleCloseModal}
-        className="modal-centered"
+        className="modal_centered"
       >
         <Modal.Header className="modalhead" closeButton>
           <Modal.Title>{title}</Modal.Title>
@@ -65,7 +70,7 @@ const Card = ({ img, cardImg, title, star, reviews, prevPrice, newPrice, images 
               controlId="exampleForm.ControlTextarea1"
             >
 
-              <Form.Control className="tstarea" as="textarea" placeholder="Type Message here" rows={3} />
+              <Form.Control className="txtarea" as="textarea" placeholder="Type Message here" rows={3} />
             </Form.Group>
           </Form>
         </Modal.Body>
@@ -80,13 +85,7 @@ const Card = ({ img, cardImg, title, star, reviews, prevPrice, newPrice, images 
         </Modal.Footer>
       </Modal>
 
-      <style>
-        {`
-          .modal-centered {
-           
-          }
-        `}
-      </style>
+
 
     </>
 

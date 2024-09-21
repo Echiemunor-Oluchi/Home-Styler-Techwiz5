@@ -1,39 +1,21 @@
-
-import './App.css';
-
-import Findprofessionals from './pages/Findprofessionals/Findprofessionals';
-import { BrowserRouter } from 'react-router-dom';
 import React from 'react'
-import "./App.css"
-import Navbar from './components/Navbar'
-import Home from './pages/home/Home'
-import Product from '../src/Product'
+import Findprofessionals from '../src/Findprofessionals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import "./App.css"
+// import Navbar from './components/Navbar'
+// import Home from './pages/home/Home'
+// import Product from './Product'
 
 
 const App = () => {
   return (
     <div>
+
       <Findprofessionals />
 
-      <div className='firstpage'>
-        <Home />
-        <div>
-          <Navbar />
-        </div>
-        <div>
-
-          <Product></Product>
-
-        </div>
-
-        <div>
-          <Findprofessionals></Findprofessionals>
-
-        </div>
-      </div>
     </div>
 
   )
 }
 
-export default App
+export default App;

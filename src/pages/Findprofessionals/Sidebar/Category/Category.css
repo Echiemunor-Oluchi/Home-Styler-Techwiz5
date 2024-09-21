@@ -1,7 +1,11 @@
 .sidebar-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: normal;
   margin-bottom: 20px;
+  background: rgb(13, 110, 253);
+  padding: 8px;
+  color: #eee;
+  border-radius: 10px;
 }
 
 .sidebar-items {
@@ -40,11 +44,11 @@
   background: linear-gradient(blue, crimson);
 }
 
-.sidebar-label-container:hover input ~ .checkmark {
+.sidebar-label-container:hover input~.checkmark {
   background-color: #ccc;
 }
 
-.sidebar-label-container input:checked ~ .checkmark {
+.sidebar-label-container input:checked~.checkmark {
   background-color: #2196f3;
 }
 
@@ -54,7 +58,7 @@
   display: none;
 }
 
-.sidebar-label-container input:checked ~ .checkmark:after {
+.sidebar-label-container input:checked~.checkmark:after {
   display: block;
 }
 

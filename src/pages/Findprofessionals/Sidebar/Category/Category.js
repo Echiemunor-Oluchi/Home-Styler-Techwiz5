@@ -4,7 +4,7 @@ import Input from "../../Input";
 function Category({ handleChange }) {
   return (
     <div>
-      <h2 className="sidebar-title">House Service Professionals</h2>
+      <h3 className="sidebar-title">House Service Professionals</h3>
 
       <div>
         <label className="sidebar-label-container">
@@ -31,14 +31,14 @@ function Category({ handleChange }) {
         />
         <Input
           handleChange={handleChange}
-          value="painting"
+          value="painters"
           title="Painting"
           name="test"
         />
         <Input
           handleChange={handleChange}
-          value="electrical"
-          title="Electrical"
+          value="kitchendecors"
+          title="Kitchen Decors"
           name="test"
         />
       </div>
