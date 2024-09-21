@@ -12,10 +12,12 @@
   z-index: 1000;
   box-sizing: border-box;
 }
-.li{
+
+.li {
   text-decoration: none;
   color: black;
 }
+
 .change-bg-color {
   background-color: #fec76f;
 }
@@ -77,13 +79,13 @@
   width: 100%;
 }
 
-.navbarHolder > div:last-child {
+.navbarHolder>div:last-child {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.navbarHolder > div:last-child svg {
+.navbarHolder>div:last-child svg {
   color: #fec76f;
   font-size: 24px;
   margin-right: 2em;
@@ -91,7 +93,7 @@
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.navbarHolder > div:last-child svg:hover {
+.navbarHolder>div:last-child svg:hover {
   color: #fec76f;
   transform: scale(1.1);
 }
@@ -117,8 +119,8 @@
     top: 5em;
     left: 0;
     width: 100%;
-    background-color: #021526;
-    color: #fff;
+    background-color: white;
+
     padding: 1em;
     z-index: 999;
   }
@@ -134,13 +136,19 @@
 
   .linksHolder ul li {
     font-size: 1.5em;
+    padding: 10px;
+    color: #f5f5f5;
   }
-  .linksHolder ul li:hover{
+
+  .linksHolder ul li:hover {
     background-color: #fec76f;
     color: #000;
     width: 100%;
+    border-radius: 10px;
+    padding: 10px;
   }
-  .navIcons{
+
+  .navIcons {
     display: none;
   }
 }
@@ -153,8 +161,8 @@
 .testimonial-section {
   text-align: center;
   position: relative;
-  margin-top: 10em !important; 
-  box-sizing: border-box; 
+  margin-top: 10em !important;
+  box-sizing: border-box;
   background-color: #fec76f;
   padding-block: 3em;
   padding-inline: 1em;
@@ -164,12 +172,12 @@
 .testimonial-slider {
   background-color: #fec76f;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .testimonial-content {
   display: flex;
-  transition: transform 0.5s ease-in-out; 
+  transition: transform 0.5s ease-in-out;
 }
 
 .testimonial-item {
@@ -222,7 +230,8 @@ h3 {
 .arrow:hover {
   background-color: #fec76f;
 }
-.testimonialText{
+
+.testimonialText {
   font-size: 2.5em;
   font-family: "Montserrat Alternates", sans-serif;
 }
@@ -240,7 +249,8 @@ h3 {
   padding: 2em 1em;
   font-family: "Montserrat Alternates", sans-serif;
   transition: background-color 0.3s ease;
-  text-align: center; /* Center all content in the footer */
+  text-align: center;
+  /* Center all content in the footer */
 }
 
 .footer-container {
@@ -253,9 +263,12 @@ h3 {
   padding: 1em;
   margin: 0.5em;
   font-size: 1em;
-  width: 100%; /* Ensure each section takes full width */
-  max-width: 400px; /* Limit section width for better readability on large screens */
-  box-sizing: border-box; /* Ensure padding doesn’t affect width */
+  width: 100%;
+  /* Ensure each section takes full width */
+  max-width: 400px;
+  /* Limit section width for better readability on large screens */
+  box-sizing: border-box;
+  /* Ensure padding doesn’t affect width */
 }
 
 .footer-section h2 {
@@ -320,7 +333,8 @@ h3 {
 
   .footer-section {
     padding: 1em 0;
-    width: 100%; /* Take up full width on smaller screens */
+    width: 100%;
+    /* Take up full width on smaller screens */
   }
 
   .social-icons {
@@ -349,15 +363,17 @@ h3 {
 
 
 /* Design style section */
-.designTextHolder{
+.designTextHolder {
   display: flex;
   align-items: center;
   gap: 52em;
   margin-top: 10em;
 }
-.designstlesHolder{
+
+.designstlesHolder {
   margin-top: 6em;
 }
+
 .designstylesHolder {
   padding: 2em;
   background-color: #f5f5f5;
@@ -374,7 +390,7 @@ h3 {
   align-items: center;
 }
 
-.shopItems1{
+.shopItems1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2em;
@@ -428,16 +444,16 @@ h3 {
   content: "";
   position: absolute;
   left: 0;
-  top: -100%; 
+  top: -100%;
   width: 100%;
   height: 100%;
   background-color: #021526;
   z-index: 0;
-  transition: top 0.6s ease; 
+  transition: top 0.6s ease;
 }
 
 .shopItemContent1:hover::before {
-  top: 0; 
+  top: 0;
 }
 
 .shopItemContent1 h3,
@@ -450,70 +466,73 @@ h3 {
 
 @media only screen and (max-width: 1200px) {
   .designTextHolder {
-    gap: 10em; 
+    gap: 10em;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .linksHolder ul {
-    gap: 20px; 
+    gap: 20px;
   }
-  
+
   .designTextHolder {
     gap: 5em;
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .shopItems {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
   .shopItemImage {
-    height: 10em; 
+    height: 10em;
   }
 
   .whychoose {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
-  .leftChoose, .rightChoose {
-    width: 100%; 
+  .leftChoose,
+  .rightChoose {
+    width: 100%;
   }
 
   .leftImage {
-    height: 20em; 
+    height: 20em;
   }
 
-  .icon1Holder, .icon2Holder {
-    flex-direction: column; 
+  .icon1Holder,
+  .icon2Holder {
+    flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .navbarHolder {
-    padding: 1em; 
+    padding: 1em;
   }
 
   .linksHolder ul {
-    flex-direction: column; 
-    gap: 10px; 
+    flex-direction: column;
+    gap: 10px;
   }
 
   .testimonialText {
-    font-size: 2em; 
+    font-size: 2em;
   }
 
   .testimonial-description {
-    font-size: 1em; 
+    font-size: 1em;
   }
 
   .shopItemContent {
-    padding: 1em; 
+    padding: 1em;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .linksHolder {
-    display: none; 
+    display: none;
     position: absolute;
     top: 5em;
     left: 0;
@@ -522,60 +541,58 @@ h3 {
     flex-direction: column;
     align-items: center;
     padding: 1em 0;
+    color: #f5f5f5;
     z-index: 999;
   }
 
   .linksHolder ul {
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
   }
 
   .navbarHolder {
     justify-content: space-between;
   }
 
- 
+
   .hamburger {
     display: flex;
   }
 
-  
+
   .linksHolder.open {
-    display: flex; 
+    display: flex;
   }
 }
 
 @media only screen and (max-width: 576px) {
   .navlogo img {
-    height: 3em; 
+    height: 3em;
     margin-left: 1em;
   }
 
   .footer-container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .designTextHolder {
-    gap: 2em; 
+    gap: 2em;
     text-align: center;
   }
 
   .shopItemImage {
-    height: 8em; 
+    height: 8em;
   }
 
   .testimonialText {
-    font-size: 1.8em; 
+    font-size: 1.8em;
   }
 
   .leftImage {
-    height: 15em; 
+    height: 15em;
   }
 
   .social-icon {
-    font-size: 1.2em; 
+    font-size: 1.2em;
   }
 }
-
-
-

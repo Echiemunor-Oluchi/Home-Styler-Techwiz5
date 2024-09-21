@@ -58,10 +58,11 @@ const Home = () => {
 
         <div className="buttons container">
           <Link to="/product" className="shop">
-            Shop Now
+            <button className="buttons">Shop Now</button>
           </Link>
+
           <Link to="/findprofessional" className="explore">
-            Explore
+            <button className="buttons"> Explore </button>
           </Link>
         </div>
       </div>

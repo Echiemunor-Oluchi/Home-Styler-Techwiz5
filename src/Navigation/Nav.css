@@ -6,6 +6,7 @@ nav {
   padding: 20px;
   z-index: 999;
   margin-left: 2rem;
+  margin-top: 6rem;
 }
 
 input {
@@ -34,32 +35,29 @@ input {
 }
 
 .microphone-icon.listening {
-  color: red; 
+  color: red;
 }
-.microphone-icon:hover{
+
+.microphone-icon:hover {
   transform: scale(2);
 }
 
 
 @media (max-width: 768px) {
 
-  .nav{
-  display: block;
-  margin-left: -20rem;
+  .nav {
+    display: block;
 
-    
 
-  }
-  .search-input{
-    margin-left: 343px;
+
+
   }
 
 
 
 
- 
+
+
+
 
 }
-
-
-
