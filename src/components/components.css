@@ -52,6 +52,8 @@
   padding: 5px 0;
 }
 
+
+
 .navIcons {
   font-size: 1.5em;
   color: #fec76f;
@@ -108,6 +110,9 @@
   .hamburger {
     display: block;
     cursor: pointer;
+
+    display: flex;
+    align-items: flex-end;
     z-index: 2000;
   }
 
@@ -529,6 +534,7 @@ h3 {
     padding: 1em;
   }
 }
+
 
 @media only screen and (max-width: 768px) {
   .linksHolder {

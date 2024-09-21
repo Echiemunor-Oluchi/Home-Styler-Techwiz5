@@ -57,7 +57,7 @@ function Navbar() {
           <IoPersonSharp />
         </div>
 
-        <div className="hamburger" onClick={toggleMenu}>
+        <div className="hamburger " onClick={toggleMenu}>
           <GiHamburgerMenu />
         </div>
       </div>

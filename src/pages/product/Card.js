@@ -6,25 +6,25 @@ import { BsFillBagFill, BsCheckCircleFill } from "react-icons/bs";
 
 const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   const [addedToCart, setAddedToCart] = useState(false);
-  const [showModal, setShowModal] = useState(false); 
+  const [showModal, setShowModal] = useState(false);
 
   const handleAddToCart = () => {
     setAddedToCart(true);
-    setShowModal(true); 
-  
+    setShowModal(true);
+
   };
 
   const handleCloseModal = () => {
-    setShowModal(false); 
+    setShowModal(false);
   };
 
   return (
     <>
-      <section className="card">
-        <img src={img} alt={title} className="card-img" />
+      <section className="productcard">
+        <img src={img} alt={title} className="product-card-img" />
         <div className="card-details">
           <h3 className="card-title">{title}</h3>
-        
+
           <section className="card-reviews">  {star} {star}
             <span className="total-reviews">({reviews} reviews)</span>
           </section>

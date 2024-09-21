@@ -11,7 +11,7 @@ const Sidebar = ({ handleChange }) => {
   };
   return (
     <>
-      <button className="hamburger" onClick={toggleSidebar}>
+      <button className="hamburger1" onClick={toggleSidebar}>
         &#9776;
       </button>
       <section className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
