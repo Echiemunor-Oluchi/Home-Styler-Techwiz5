@@ -1,6 +1,6 @@
 .Header {
   height: 400px;
-  background-image: url("C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table.jpg");
+  background-image: url("../../../public/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,15 +139,15 @@ body {}
 }
 
 .pic1 {
-  background-image: url('C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\pic1.jpg');
+  background-image: url('../../../public/pic1.jpg');
 }
 
 .pic2 {
-  background-image: url('C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\pic2.jpg');
+  background-image: url('../../../public/pic2.jpg');
 }
 
 .pic3 {
-  background-image: url('C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\pic3.jpg');
+  background-image: url('../../../public/pic3.jpg');
 }
 
 .body2-image {
@@ -156,7 +156,7 @@ body {}
   box-shadow: 10px 8px 12px 10px rgb(200, 200, 200);
   border-radius: 20px;
   background-size: cover;
-  background-image: url('C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table.jpg');
+  background-image: url('../../../public/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table.jpg');
 }
 
 hr {
@@ -173,7 +173,7 @@ hr {
   height: 200px;
   background-size: 65%;
   background-repeat: no-repeat;
-  background-image: url('C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\couch.png');
+  background-image: url('../../../public/couch.png');
 }
 
 .space {
@@ -226,7 +226,7 @@ hr {
     height: 200px;
     background-size: 65%;
     background-repeat: no-repeat;
-    background-image: url('C:\Users\Just-Dave\Desktop\techwiz_homestyler\public\couch.png');
+    background-image: url('../../../public/couch.png');
   }
 
   .name-row {
