@@ -198,6 +198,9 @@ body{
   .no-space > p {
     color: grey;
   }
+  .icon{
+    color: black;
+  }
   .flex2 {
     display: flex;
     margin-right: 29px;
@@ -215,6 +218,19 @@ body{
   .icon-box-outer2{
     gap: 15px;
   }
+  .one{
+    margin-top: 25px;
+  }
+  .flex1 > .no-space{
+    margin-top: 35px;
+  }
+  .no-space > h5{
+    margin-bottom: 2px;
+  }
+  .no-space{
+    margin-bottom: 30px;
+  }
+
   .circle:hover {
     transition: 0.5s;
     background-color: black;

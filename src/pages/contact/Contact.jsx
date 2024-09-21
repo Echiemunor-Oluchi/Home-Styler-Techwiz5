@@ -17,6 +17,7 @@ import {
 import { BiEnvelope } from "react-icons/bi";
 import "leaflet/dist/leaflet.css";
 import MapComponent from "./MapComponent";
+import Footer from "../../components/Footer.jsx"
 function Contact() {
   const controls = useAnimation(); // Controls for the animation
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
@@ -31,6 +32,7 @@ function Contact() {
       <div className="Hero-image">
         <div className="hero-content">
           <h1>Contact us</h1>
+          <br/>
           <h4>
             Start the conversation to established good
             <br />
@@ -79,7 +81,7 @@ function Contact() {
                 <div className="little-box">
                   <FaEnvelope className="icon" />
                 </div>
-                <div className="no-space">
+                <div className="no-space one">
                   <h5>Email Support</h5>
                   <p>
                     Support@youdomain.ind
@@ -95,7 +97,7 @@ function Contact() {
                 <div className="little-box">
                   <FaPhone className="icon" />
                 </div>
-                <div className="no-space">
+                <div className="no-space one">
                   <h5>Call us</h5>
                   <p>
                     Phone +6232342343242
@@ -108,7 +110,7 @@ function Contact() {
                 <div className="little-box">
                   <FaClock className="icon" />
                 </div>
-                <div className="no-space">
+                <div className="no-space one">
                   <h5>Office Hour</h5>
                   <p>
                     Mon - Fri: 09:00 - 17:00
@@ -207,6 +209,7 @@ function Contact() {
         </div>
         <MapComponent />
       </div>
+      <Footer/>
     </>
   );
 }

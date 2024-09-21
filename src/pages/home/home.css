@@ -82,8 +82,9 @@
 
 
 /* Section 2 */
-.section2 {
-  margin-top: 15em;
+.section22 {
+  margin-top:25em;
+  width: 100%;
   display: flex;
   transition: background-color 0.3s ease;
 }

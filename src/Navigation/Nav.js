@@ -29,7 +29,9 @@ const Nav = ({ handleInputChange, query }) => {
 
   return (
     <nav>
+      
       <div className="nav">
+        <br /><br /><br /><br />
         <input
           className="search-input"
           type="text"

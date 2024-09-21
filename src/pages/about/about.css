@@ -36,6 +36,7 @@
   justify-content: center;
   gap: 120px;
   margin-left: 50px;
+  flex-direction: column;
 }
 .top-container > div{
   margin-top: 20px;
@@ -97,7 +98,7 @@ body{
 .row{
   display: flex;
   flex-direction: column;
-  line-height: 0.1em;
+  line-height: 1.8em;
 }
 .row > p{
   margin-top: 0px;

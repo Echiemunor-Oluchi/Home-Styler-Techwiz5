@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css";
 import { FaClock, FaHeadphones, FaHouse } from "react-icons/fa6";
 import { FaTools } from "react-icons/fa";
+import Footer from "../../components/Footer"
+import Testimonials from "../../components/Testimonials"
 
 function About() {
   return (
@@ -9,8 +11,10 @@ function About() {
       <div className="Header">
         <div className="about">
           <h2 className="sub-header">About Us</h2>
+          <br/>
           <p>Transforming ordinary spaces into stunning works of art, where every detail is thoughtfully designed to inspire and captivate. </p>
           <div className="button-container">
+            <br/>
             <button>Hire Us</button>
           </div>
         </div>
@@ -115,6 +119,16 @@ function About() {
         </div>
         </div>
       </div>
+      <Testimonials />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <Footer />
     </>
   );
 }

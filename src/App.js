@@ -1,25 +1,30 @@
-import React from 'react'
-import "./App.css"
-import Navbar from './components/Navbar'
-import Home from './pages/home/Home'
-import Product from '../src/Product'
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Product from "./Product"
 
 const App = () => {
   return (
-    <div>
-      <div className='firstpage'>
-      <Home />
+    <Router>
       <div>
-      <Navbar />
+        <div className="firstpage">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/product" element={<Product/>}/>
+          </Routes>
+          <div>
+            <Navbar />
+          </div>
+        </div>
       </div>
-    <div>
- 
-     <Product></Product>
-    
-    </div>
-      </div>
-      </div>
+    </Router>
+  );
+};
 
-)}
-
-export default App
+export default App;

@@ -60,7 +60,7 @@ const Home = () => {
       </div>
 
       {/* Section 2 */}
-      <div className="section2 container">
+      <div className="section22 container">
         <div className="textSection">
           <h1>Expertly crafted with premium materials.</h1>
           <p>

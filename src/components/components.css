@@ -12,7 +12,10 @@
   z-index: 1000;
   box-sizing: border-box;
 }
-
+.li{
+  text-decoration: none;
+  color: black;
+}
 .change-bg-color {
   background-color: #fec76f;
 }
