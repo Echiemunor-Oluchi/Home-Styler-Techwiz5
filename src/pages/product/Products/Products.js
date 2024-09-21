@@ -5,10 +5,10 @@ const Products = ({ result }) => {
 
     <>
 
-      <section className="card-container"> 
-        
-          {result }</section>
-    
+      <section className="card-container">
+
+        {result}</section>
+
     </>
   );
 };

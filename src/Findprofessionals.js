@@ -1,15 +1,15 @@
 import { useState } from "react";
-
-import Navigation from "./Navigation/Nav";
-import Products from "./Products/Products";
-import products from "./db/data";
-import Recommended from "./Recommended/Recommended";
-import Sidebar from "./Sidebar/Sidebar";
-import Card from "./Card";
-import "../../index.css";
-import Profile from "./Profile";
+import Navigation from "./pages/Findprofessionals/Navigation/Nav";
+import Products from "./pages/Findprofessionals/Products/Products";
+import products from "./pages/Findprofessionals/db/data";
+import Recommended from "./pages/Findprofessionals/Recommended/Recommended";
+import Sidebar from "./pages/Findprofessionals/Sidebar/Sidebar";
+import Card from "./pages/Findprofessionals/Card";
+import "./index.css";
+import Profile from "./pages/Findprofessionals/Profile";
 
 function Findprofessionals() {
+
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // ----------- Input Filter -----------
@@ -91,6 +91,7 @@ function Findprofessionals() {
       <Products result={result} />
     </>
   );
+
 }
 
 export default Findprofessionals;

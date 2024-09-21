@@ -15,7 +15,6 @@ function About() {
           <p>Transforming ordinary spaces into stunning works of art, where every detail is thoughtfully designed to inspire and captivate. </p>
           <div className="button-container">
             <br/>
-            <button>Hire Us</button>
           </div>
         </div>
       </div>

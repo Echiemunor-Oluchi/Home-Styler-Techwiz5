@@ -35,12 +35,11 @@ function Navbar() {
         </div>
         <div className={`linksHolder ${menuOpen ? 'active' : ''}`}>
           <ul>
-            <Link to ="/"><li>Home</li></Link>
-            <Link to ="/findprofessionals"><li>Find professionals</li></Link>
+            <Link to ="/" className="li"><li>Home</li></Link>
+            <Link to ="/findprofessionals" className="li"><li>Find professionals</li></Link>
             <Link  to="/product" className='li'><li>Products</li></Link>
-            <Link to ="/Feedback"><li>Feedback</li></Link>
-            <Link to ="/about"><li>about</li></Link>
-            <Link to ="/contact"><li>contact</li></Link>
+            <Link to ="/about" className="li"><li>about</li></Link>
+            <Link to ="/contact" className="li"><li>contact</li></Link>
           </ul>
         </div>
         <div className='navIcons'>

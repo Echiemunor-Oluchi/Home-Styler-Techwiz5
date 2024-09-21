@@ -6,6 +6,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Product from "./Product"
+import FindProfessionals from "./pages/Findprofessionals/Findprofessionals.jsx"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/product" element={<Product/>}/>
+            <Route path="/findprofessionals"element={<FindProfessionals/>}/>
           </Routes>
           <div>
             <Navbar />
